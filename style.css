@@ -1,0 +1,330 @@
+
+:root{
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+}
+
+@page {
+    size: A4;
+  }
+
+a {
+    text-decoration: none;
+
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebeaed;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    padding:  12px ;
+    display: flex;
+}
+
+.sidebar {
+    padding-right: 12px;
+    padding-left: 12px;
+    min-width: 450px;
+    background-color: #d0cfd3;
+    border-radius: 10px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+
+.title-name {
+font-family: var(--secondary-font);
+font-size: 48px;
+text-align: center;
+color: white;
+line-height: 1.17;
+letter-spacing: 0.03em;
+margin-top: 30px;
+margin-bottom: 40px;
+ color: #94c7d6;
+  text-shadow: 
+    2px 2px 3px rgba(0,0,0,0.5),
+    4px 4px 5px rgba(0,0,0,0.3),
+    -2px -2px 2px rgba(0,0,0,0.2);
+ 
+}
+
+.foto-profile {
+width: 150px;  
+height: 250px; 
+border-radius: 10px; 
+box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+float: right;     
+margin-left: 40px; 
+margin: 0 auto;
+margin-top: 10px;
+
+}
+
+.icon{
+    width: 20px;
+  height: 20px;
+ 
+}
+
+.list-contact {
+    padding-left: 20px; 
+list-style: none;   
+  padding: 0;        
+  margin: 0;
+
+}
+
+.item-contact{
+    color: #160c18;
+     display: flex;     
+  align-items: center;
+  gap: 10px;       
+  margin-bottom: 10px;
+  
+} 
+
+.item-contact:not(:last-child) {
+    margin-bottom: 7px;
+}
+/* .item-contact-link {
+    color: var(--secondary-text-color);
+    text-decoration: underline;
+    text-align: center;
+  
+} */
+
+
+
+.title-tech-skills{
+    margin-top: 36px;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    color: var(--primary-text-color);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+
+.list-tech-skills{
+    padding-left: 20px; 
+    list-style-type: disc;
+}
+.item-tech-skills{
+    color: var(--secondary-text-color);
+   
+
+}
+
+.item-tech-skills:not(:last-child) {
+    margin-bottom: 4px;
+   
+}
+.title-soft-skills{
+    margin-top: 36px;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    color: var(--primary-text-color);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.list-soft-skills{
+    padding-left: 20px; 
+    list-style-type: disc;
+}
+
+.item-soft-skills{
+    color: var(--secondary-text-color);
+  
+}
+
+.item-soft-skills:not(:last-child) {
+    margin-bottom: 4px;
+   
+}
+
+
+
+.title-languages {
+    margin-top: 48px;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    color: var(--primary-text-color);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.list-lang{
+    padding-left: 20px; 
+    list-style-type: disc;
+}
+.item-languages{
+    color: var(--secondary-text-color);
+ 
+}
+
+
+/* about */
+
+.container-about {
+    padding-left: 24px;
+    padding-right: 24px;
+   margin-left: 12px;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.position-title {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    text-align: center;
+    color: var(--secondary-text-color);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
+}
+.title-summary {
+     font-family: var(--secondary-font);
+     font-size: 20px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     margin-bottom: 8px;
+     margin-top: 24px;
+     color: var(--primary-text-color);
+}
+
+
+.text-summary {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.17;
+     letter-spacing: 0.03em;
+     color: var(--secondary-text-color);
+     margin-bottom: 12px;
+}
+
+
+
+
+.title-work-experience{ 
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 8px;
+    color: var(--primary-text-color);
+}
+.name-work{ 
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 8px;
+    color: var(--primary-text-color);
+   
+}
+.item-work {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.17;
+     letter-spacing: 0.03em;
+     color: var(--secondary-text-color);
+     margin-bottom: 12px;
+}
+.title-education {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 8px;
+    color: var(--primary-text-color);
+}
+
+.school-goit{ 
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 8px;
+    color: var(--primary-text-color);
+        /* margin-left: 12px; */
+}
+
+.year-school-goit {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.17;
+     letter-spacing: 0.03em;
+     color: var(--secondary-text-color);
+     margin-bottom: 12px;
+}
+.fullstack {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.17;
+     letter-spacing: 0.03em;
+     color: var(--secondary-text-color);
+     margin-bottom: 12px;
+}
+.title-education-univer{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 8px;
+    color: var(--primary-text-color);
+        /* margin-left: 12px; */
+}
+.year-univer{ 
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.17;
+     letter-spacing: 0.03em;
+     color: var(--secondary-text-color);
+     margin-bottom: 12px;
+}
+.univer-prof{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.17;
+     letter-spacing: 0.03em;
+     color: var(--secondary-text-color);
+     margin-bottom: 12px;
+}
